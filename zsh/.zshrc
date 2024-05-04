@@ -25,7 +25,7 @@ path(
 	$HOME/Library/Application Support/fnm
 )
 
-eval "`fnm env`"
+eval "$(fnm env --use-on-cd)"
 eval "$(atuin init zsh)"
 
 #--------------------------------------------------------------------------
